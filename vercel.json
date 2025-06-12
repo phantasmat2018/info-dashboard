@@ -4,21 +4,12 @@
     {
       "src": "api/alerts.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "." }
     }
   ],
   "routes": [
     {
       "src": "/api/alerts",
       "dest": "/api/alerts.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
     }
   ]
 }
