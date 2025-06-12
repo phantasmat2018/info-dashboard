@@ -10,6 +10,10 @@
     {
       "src": "/api/alerts",
       "dest": "/api/alerts.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
