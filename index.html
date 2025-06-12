@@ -47,16 +47,15 @@
         </div>
 
         <div class="right-column">
-            <div class="tile tile-alerts">
-                <h3 class="tile-title">Статус Повітряних Тривог</h3>
-                <div class="alerts-content">
-                    <div id="kyiv-status" class="alert-status">
+            <div class="tile tile-map">
+                <h3 class="tile-title">Мапа Повітряних Тривог</h3>
+                <div class="map-container">
+                    <iframe src="https://alerts.in.ua/" frameborder="0"></iframe>
+                </div>
+                <div class="tile-footer alert-footer">
+                     <div id="kyiv-status" class="alert-status">
                         Завантаження статусу...
                     </div>
-                    <div id="other-alerts-container">
-                        </div>
-                </div>
-                <div class="tile-footer">
                     <button id="alert-sound-toggle" class="sound-toggle">🔔 Тривога: Увімкнено</button>
                 </div>
             </div>
